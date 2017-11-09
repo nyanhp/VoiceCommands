@@ -9,5 +9,5 @@ Using Out-Voice is simple enough. Just pipe stuff to it.
 
 Optionally you can select a gender. Out-Voice defaults to female.  
 ```powershell
-"3...2...1... Engange!" | Out-Voice -Gender Male
+"3...2...1... Engage!" | Out-Voice -Gender Male
 ```
