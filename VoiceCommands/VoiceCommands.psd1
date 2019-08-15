@@ -15,7 +15,7 @@ RootModule = 'VoiceCommands.psm1'
 ModuleVersion = '1.0'
 
 # Supported PSEditions
-# CompatiblePSEditions = @()
+CompatiblePSEditions = @('Desktop')
 
 # ID used to uniquely identify this module
 GUID = 'b21683bc-8371-4c6f-af55-06abbcec2093'
@@ -24,16 +24,16 @@ GUID = 'b21683bc-8371-4c6f-af55-06abbcec2093'
 Author = 'Jan-Hendrik Peters'
 
 # Company or vendor of this module
-CompanyName = 'Unknown'
+CompanyName = 'Jan-Hendrik Peters'
 
 # Copyright statement for this module
-Copyright = '(c) 2017 Jan-Hendrik Peters. All rights reserved.'
+Copyright = '(c) <forever> Jan-Hendrik Peters. All rights reserved.'
 
 # Description of the functionality provided by this module
 Description = 'A module that contains cmdlets for voice output'
 
 # Minimum version of the Windows PowerShell engine required by this module
-# PowerShellVersion = ''
+PowerShellVersion = '5.1'
 
 # Name of the Windows PowerShell host required by this module
 # PowerShellHostName = ''
